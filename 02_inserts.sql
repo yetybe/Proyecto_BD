@@ -234,33 +234,33 @@ INSERT INTO Receta (idProducto, idInsumo, cantNecesaria) VALUES
 (30, 2, 10.00),  -- Azúcar
 (30, 11, 40.00), -- Manjar
 
-<<<<<<< HEAD
--- Receta: Empanada Napolitana (18)
-(18, 1, 80.00), -- Harina
-(18, 14, 60.00), -- Queso
-(18, 17, 40.00), -- Jamón
-(18, 20, 30.00), -- Tomate
-
--- Receta: Empanada Mechada Queso (19)
-(19, 1, 80.00), -- Harina
-(19, 14, 60.00), -- Queso
-(19, 18, 80.00), -- Carne Mechada
-
--- Receta: Torta 3 Leches (28)
-(28, 1, 500.00), -- Harina
-(28, 2, 400.00), -- Azúcar
-(28, 10, 8.00),  -- Huevos
-(28, 8, 1000.00), -- Leche
-
--- Receta: Torta Mil Hojas (24)
-(24, 1, 800.00), -- Harina
-(24, 7, 300.00), -- Mantequilla
-(24, 11, 1500.00), -- Manjar
-
--- Receta: Chilenitos (20)
-(20, 1, 50.00),  -- Harina
-(20, 10, 1.00),  -- Huevos
-(20, 11, 80.00); -- Manjar
+-- [COCTELERÍA]
+-- 31. Canapés de Camarón
+(31, 1, 10.00),  -- Harina
+(31, 7, 5.00),   -- Mantequilla
+-- 32. Tapaditos de Ave Pimiento
+(32, 1, 15.00),  -- Harina
+(32, 7, 5.00),   -- Mantequilla
+-- 33. Tapaditos de Ave Mayo
+(33, 1, 15.00),  -- Harina
+(33, 7, 5.00),   -- Mantequilla
+-- 34. Mini Pizzetas
+(34, 1, 20.00),  -- Harina
+(34, 14, 15.00), -- Queso Mantecoso
+(34, 20, 10.00), -- Tomate
+-- 35. Empanaditas de Queso Cocktail
+(35, 1, 15.00),  -- Harina
+(35, 6, 5.00),   -- Manteca
+(35, 14, 20.00), -- Queso Mantecoso
+-- 36. Empanaditas de Pino Cocktail
+(36, 1, 15.00),  -- Harina
+(36, 6, 5.00),   -- Manteca
+(36, 15, 15.00), -- Carne Molida
+(36, 16, 10.00), -- Cebolla
+-- 37. Trufas de Chocolate
+(37, 12, 30.00), -- Cobertura de Chocolate
+(37, 11, 20.00), -- Manjar
+(37, 8, 10.00);  -- Leche
 
 -- Clientes
 INSERT INTO Cliente (idCliente, nombre, apellido, telefono, correo) VALUES
@@ -370,36 +370,3 @@ INSERT INTO Detalle_Pedido (idPedido, idProducto, cantidad, precioHistorico, esp
 (40, 50, 25, 350, 'Con coco rallado'),
 (41, 18, 5, 2500, 'Con harto orégano'),
 (42, 1, 10, 250, 'Recién hechas');
-
-
-
-
-=======
--- [COCTELERÍA]
--- 31. Canapés de Camarón
-(31, 1, 10.00),  -- Harina
-(31, 7, 5.00),   -- Mantequilla
--- 32. Tapaditos de Ave Pimiento
-(32, 1, 15.00),  -- Harina
-(32, 7, 5.00),   -- Mantequilla
--- 33. Tapaditos de Ave Mayo
-(33, 1, 15.00),  -- Harina
-(33, 7, 5.00),   -- Mantequilla
--- 34. Mini Pizzetas
-(34, 1, 20.00),  -- Harina
-(34, 14, 15.00), -- Queso Mantecoso
-(34, 20, 10.00), -- Tomate
--- 35. Empanaditas de Queso Cocktail
-(35, 1, 15.00),  -- Harina
-(35, 6, 5.00),   -- Manteca
-(35, 14, 20.00), -- Queso Mantecoso
--- 36. Empanaditas de Pino Cocktail
-(36, 1, 15.00),  -- Harina
-(36, 6, 5.00),   -- Manteca
-(36, 15, 15.00), -- Carne Molida
-(36, 16, 10.00), -- Cebolla
--- 37. Trufas de Chocolate
-(37, 12, 30.00), -- Cobertura de Chocolate
-(37, 11, 20.00), -- Manjar
-(37, 8, 10.00);  -- Leche
->>>>>>> 28cbfb55b25a3d1ea778503037e0fe40ded2ed6d

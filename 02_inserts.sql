@@ -328,7 +328,7 @@ INSERT INTO Detalle_Pedido (idPedido, idProducto, cantidad, precioHistorico, esp
 (2, 16, 2, 22000, 'Bien doradas'),
 (3, 3, 10, 300, 'Bolsa de papel'),
 (4, 24, 1, 20000, 'Con harto manjar'),
-(5, 31, 20, 600, 'En bandeja plástica'), -- Era el ID 41
+(5, 31, 20, 600, 'En bandeja plástica'), 
 (6, 17, 5, 2500, 'Sin pasas'),
 (7, 20, 10, 800, 'Con azúcar flor extra'),
 (8, 31, 1, 18500, 'Que diga Feliz Aniversario'),
@@ -337,11 +337,11 @@ INSERT INTO Detalle_Pedido (idPedido, idProducto, cantidad, precioHistorico, esp
 (11, 23, 5, 1200, 'En caja de regalo'),
 (12, 36, 1, 12000, 'Fruta fresca de la estación'),
 (13, 34, 1, 8000, 'Corte tradicional'),
-(14, 35, 20, 400, 'Con harto queso'), -- Era el ID 45
+(14, 35, 20, 400, 'Con harto queso'), 
 (15, 27, 1, 23000, 'Mantener bien helada'),
 (16, 37, 1, 10000, 'Merengue bien dorado'),
 (17, 22, 10, 500, 'Bien crocantes'),
-(18, 20, 1, 900, 'Sin pasas'), -- Era el ID 39
+(18, 20, 1, 900, 'Sin pasas'), 
 (19, 2, 12, 250, 'Recién horneado'),
 (20, 19, 4, 2800, 'Bien sazonado'),
 (21, 8, 5, 350, 'Con semillas'),
@@ -355,14 +355,14 @@ INSERT INTO Detalle_Pedido (idPedido, idProducto, cantidad, precioHistorico, esp
 (29, 30, 1, 17000, 'Piña picada fina'),
 (30, 32, 1, 21000, 'Relleno suave'),
 (31, 35, 1, 20000, 'Sin azúcar extra'),
-(32, 37, 1, 300, 'Masa bien delgada'), -- Era el ID 38
-(33, 32, 30, 500, 'Salsa golf aparte'), -- Era el ID 42
-(34, 34, 20, 350, 'Pan de bocado'), -- Era el ID 43
-(35, 35, 20, 400, 'Pasta bien molida'), -- Era el ID 44
-(36, 36, 25, 450, 'Listas para hornear'), -- Era el ID 46
-(37, 36, 20, 450, 'Sin picante'), -- Era el ID 47
-(38, 37, 30, 300, 'Pasadas por cacao'), -- Era el ID 48
-(39, 30, 20, 700, 'Con harto manjar'), -- Era el ID 49
-(40, 17, 25, 500, 'Con coco rallado'), -- Era el ID 50
+(32, 37, 1, 300, 'Masa bien delgada'), 
+(33, 32, 30, 500, 'Salsa golf aparte'),
+(34, 34, 20, 350, 'Pan de bocado'), 
+(35, 35, 20, 400, 'Pasta bien molida'),
+(36, 36, 25, 450, 'Listas para hornear'), 
+(37, 36, 20, 450, 'Sin picante'), 
+(38, 37, 30, 300, 'Pasadas por cacao'), 
+(39, 30, 20, 700, 'Con harto manjar'), 
+(40, 17, 25, 500, 'Con coco rallado'),
 (41, 18, 5, 2500, 'Con harto orégano'),
 (42, 1, 10, 250, 'Recién hechas');
